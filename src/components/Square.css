@@ -1,6 +1,27 @@
 .border-color{
     border: 1px solid black;
-    /* display: flex;
+}
+
+.btn-con{
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn{
+    border: 2px solid #fff;
+    background-color:#fff;
+    border-radius:5px;
+    padding:5px 10px;
+    font-size:20px;
+    font-weight: 600;
+}
+
+@media (min-width: 0px) and (max-width: 600px){
+    .font-class{
+        font-size: 40px;
+        font-weight:600;
+    }
 }
